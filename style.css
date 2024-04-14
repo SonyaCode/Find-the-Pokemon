@@ -1,0 +1,113 @@
+html, body {
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-image: url("pokemonmap.jpg");
+}
+
+img {
+  width: 70px;
+}
+
+.tree {
+  position: absolute;
+  transform: translate(-44px, -230px);
+}
+
+.slakoth {
+  transform: translate(30px, -145px);
+}
+
+.snorlax {
+  transform: translate(30px, 50px);
+}
+
+.pikachu {
+  transform: translate(180px, 100px);
+}
+
+.lapras {
+  transform: translate(220px, 330px);
+}
+
+.cyndaquil {
+ transform: translate(-50px, 400px) rotateY(180deg);
+}
+
+.totodile {
+  transform: translate(-100px, 175px);
+}
+
+.seel {
+  transform: translate(-150px, 250px);
+}
+
+.psyduck {
+  transform: translate(370px, 230px);
+}
+
+.quagsire {
+  transform: translate(350px, 250px);
+}
+
+.wobbuffet {
+  transform: translate(250px, 300px) rotateY(180deg);
+}
+
+.torchic {
+  transform: translate(5px, 15px);
+}
+
+.plusle {
+  transform: translate(20px, 85px);
+}
+
+.leafeon {
+  transform: translate(10px, 120px);
+}
+
+.floatzel {
+  transform: translate(140px, 275px);
+}
+
+.diglett {
+  transform: translate(60px, 120px);
+}
+
+.furret {
+  transform: translate(300px, 220px);
+}
+
+.masquerain {
+  transform: translateY(70px);
+}
+
+.gulpin {
+  transform: translateX(80px);
+}
+
+.pokemon {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.mystery {
+  display: flex;
+  justify-content: center;
+}
+
+#first, #second, #third, #fourth, #fifth {
+  filter: brightness(0);
+}
